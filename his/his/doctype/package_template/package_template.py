@@ -10,7 +10,8 @@ from frappe.model.rename_doc import rename_doc
 class PackageTemplate(Document):
 	def after_insert(self):
 		if not self.item:
-			create_item_from_template(self)
+			pass
+			# create_item_from_template(self)
 
 	def validate(self):
 		if self.is_billable and (not self.rate or self.rate <= 0.0):

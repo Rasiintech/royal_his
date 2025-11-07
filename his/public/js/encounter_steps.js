@@ -240,11 +240,11 @@ d.show();
             }
             
         }, 900);
-        // setTimeout(() => {
-        //     // get_history(frm.doc.patient , "vitals")
-        //     get_history(frm.doc.patient , "labs")
+        setTimeout(() => {
+            // get_history(frm.doc.patient , "vitals")
+            get_history(frm.doc.patient , "labs")
             
-        // }, 800);
+        }, 800);
         
       
     },

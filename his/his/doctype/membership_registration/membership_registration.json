@@ -108,7 +108,7 @@
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Discount Level",
-   "options": "30\n50\n70",
+   "options": "15\n20\n25\n30\n50\n70",
    "reqd": 1
   },
   {
@@ -121,7 +121,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-07-27 11:50:35.068611",
+ "modified": "2025-09-15 10:36:30.215354",
  "modified_by": "Administrator",
  "module": "HIS",
  "name": "Membership Registration",

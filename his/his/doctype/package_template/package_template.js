@@ -5,6 +5,9 @@ frappe.ui.form.on('Package Template', {
 	// refresh: function(frm) {
 
 	// }
+	template: function(frm){
+		frm.set_value("template_code", frm.doc.template)
+	},
 	before_save: function(frm){
 		let total_rate=0;
 	   var tbl = cur_frm.doc.package_prescription || [];

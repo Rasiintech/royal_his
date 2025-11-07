@@ -51,6 +51,7 @@
    "unique": 1
   },
   {
+   "default": "Packages",
    "fieldname": "item_group",
    "fieldtype": "Link",
    "ignore_user_permissions": 1,
@@ -113,7 +114,7 @@
   }
  ],
  "links": [],
- "modified": "2023-06-28 01:56:16.790445",
+ "modified": "2025-09-20 13:04:04.358130",
  "modified_by": "Administrator",
  "module": "HIS",
  "name": "Package Template",
